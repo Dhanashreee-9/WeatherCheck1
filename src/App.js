@@ -32,7 +32,7 @@ class App extends Component{
   
 
   fetchDataThroughApi=async(input)=>{
-     await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=3adf4233abdffeb8d7d85223ba789b13`)
+     await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=3adf4233abdffeb8d7d85223ba789b13`)
     .then(response=>response.json())
     .then((data)=>{
       if(data.cod === 200){
