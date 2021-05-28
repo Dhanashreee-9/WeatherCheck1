@@ -141,7 +141,7 @@ h1{
 }
 @media (max-width:300px) {
   .city_name{
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .data {
     font-size: 2rem;
